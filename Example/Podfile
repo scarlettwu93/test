@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'test_Example', :exclusive => true do
+  pod 'test', :path => '../'
+end
+
+target 'test_Tests', :exclusive => true do
+  pod 'test', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end

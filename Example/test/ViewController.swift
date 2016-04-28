@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import ZLSwipeableViewSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let swipeableView = ZLSwipeableView(frame: view.bounds)
+        view.addSubview(swipeableView)
+        
+        swipeableView.nextView = {
+            let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+            label.center = swipeableView.center
+            label.text = "Test"
+            return label
+            
+        }
+
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,3 +36,36 @@ class ViewController: UIViewController {
 
 }
 
+class FoodImageView : UIView {
+    
+    var foodImage: FoodImage
+    
+    let imageView = UIImageView()
+    let label = UILabel()
+    
+    init(frame: CGRect, foodImage: FoodImage) {
+        self.foodImage = foodImage
+        super.init(frame: frame)
+        
+        
+        // auto layout
+        
+        addSubview(imageView)
+        addSubview(label)
+//        imageView.frame = bounds
+//        imageView.frame = bounds
+        // imageView.image = foodImage.image
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+}
+
+struct FoodImage {
+    let image: UIImage
+    let descirption: String
+    
+}

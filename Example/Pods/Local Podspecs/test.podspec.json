@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "summary": "A short description of test.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/test",
+  "license": "MIT",
+  "authors": {
+    "Siyu Wu": "wusiyu1993@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "test/Classes/**/*",
+  "resource_bundles": {
+    "test": [
+      "test/Assets/*.png"
+    ]
+  }
+}

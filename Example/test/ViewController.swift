@@ -22,10 +22,8 @@ class ViewController: UIViewController {
             let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
             label.center = swipeableView.center
             label.text = "alksdjflksjdfklsdjfj"
-            return label;
-            
+            return label
         }
-
         
     }
 

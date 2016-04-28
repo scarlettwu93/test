@@ -46,13 +46,8 @@ class FoodImageView : UIView {
         super.init(frame: frame)
         
         
-        // auto layout
-        
         addSubview(imageView)
         addSubview(label)
-//        imageView.frame = bounds
-//        imageView.frame = bounds
-        // imageView.image = foodImage.image
     }
     
     required init?(coder aDecoder: NSCoder) {

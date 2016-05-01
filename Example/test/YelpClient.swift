@@ -22,7 +22,6 @@ enum YelpSortMode: Int {
     case BestMatched = 0, Distance, HighestRated
 }
 
-let defaultCoordinateString = "37.785771,-122.406165"
 let defaultLocation = CLLocation(latitude: 37.785771, longitude: -122.406165)
 
 struct YelpSearchParameters {

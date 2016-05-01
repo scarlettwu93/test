@@ -29,10 +29,12 @@ class FoodImageView : UIView {
         addSubview(contentView)
         backgroundColor = UIColor.whiteColor()
 
-        imageView.setImageWithURL(foodImage.imageURL)
+        imageView.setImageWithURL(foodImage.largeImageURL)
         imageView.contentMode = .ScaleAspectFill
         imageView.clipsToBounds = true
         label.text = foodImage.descirption
+//        label.adjustsFontSizeToFitWidth = true
+        label.numberOfLines = 1
 
         contentView.addSubview(imageView)
         contentView.addSubview(label)

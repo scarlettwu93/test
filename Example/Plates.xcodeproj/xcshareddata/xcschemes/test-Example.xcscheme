@@ -17,7 +17,7 @@
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
                BuildableName = "test_Example.app"
                BlueprintName = "test_Example"
-               ReferencedContainer = "container:test.xcodeproj">
+               ReferencedContainer = "container:Plates.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "test_Tests.xctest"
                BlueprintName = "test_Tests"
-               ReferencedContainer = "container:test.xcodeproj">
+               ReferencedContainer = "container:Plates.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "test_Tests.xctest"
                BlueprintName = "test_Tests"
-               ReferencedContainer = "container:test.xcodeproj">
+               ReferencedContainer = "container:Plates.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,7 +59,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "test_Example.app"
             BlueprintName = "test_Example"
-            ReferencedContainer = "container:test.xcodeproj">
+            ReferencedContainer = "container:Plates.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "test_Example.app"
             BlueprintName = "test_Example"
-            ReferencedContainer = "container:test.xcodeproj">
+            ReferencedContainer = "container:Plates.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,7 +101,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "test_Example.app"
             BlueprintName = "test_Example"
-            ReferencedContainer = "container:test.xcodeproj">
+            ReferencedContainer = "container:Plates.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

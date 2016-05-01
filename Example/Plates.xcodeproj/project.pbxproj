@@ -15,6 +15,8 @@
 		093375DF1CD5CFEF00172B73 /* ShakingSVGLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093375DE1CD5CFEF00172B73 /* ShakingSVGLabel.swift */; };
 		093375E11CD5E51C00172B73 /* clock.svg in Resources */ = {isa = PBXBuildFile; fileRef = 093375E01CD5E51C00172B73 /* clock.svg */; };
 		093375E31CD6704B00172B73 /* search.svg in Resources */ = {isa = PBXBuildFile; fileRef = 093375E21CD6704B00172B73 /* search.svg */; };
+		093375E51CD69D6B00172B73 /* ViewControllerSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093375E41CD69D6B00172B73 /* ViewControllerSetup.swift */; };
+		093375E71CD6B13B00172B73 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093375E61CD6B13B00172B73 /* ResultTableViewController.swift */; };
 		09588BD51CD29F4400595999 /* FoodImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09588BD41CD29F4400595999 /* FoodImageView.swift */; };
 		09588BD71CD29F6F00595999 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09588BD61CD29F6F00595999 /* Models.swift */; };
 		09588BDB1CD2A0ED00595999 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09588BD81CD2A0ED00595999 /* Business.swift */; };
@@ -53,6 +55,8 @@
 		093375DE1CD5CFEF00172B73 /* ShakingSVGLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakingSVGLabel.swift; sourceTree = "<group>"; };
 		093375E01CD5E51C00172B73 /* clock.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = clock.svg; sourceTree = "<group>"; };
 		093375E21CD6704B00172B73 /* search.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = search.svg; sourceTree = "<group>"; };
+		093375E41CD69D6B00172B73 /* ViewControllerSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSetup.swift; sourceTree = "<group>"; };
+		093375E61CD6B13B00172B73 /* ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
 		09588BD41CD29F4400595999 /* FoodImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodImageView.swift; sourceTree = "<group>"; };
 		09588BD61CD29F6F00595999 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		09588BD81CD2A0ED00595999 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 		09588BDE1CD2A12500595999 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				09588BD61CD29F6F00595999 /* Models.swift */,
 				09588BD81CD2A0ED00595999 /* Business.swift */,
 				09588BDA1CD2A0ED00595999 /* YelpClient.swift */,
 			);
@@ -177,8 +182,9 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				09588BDF1CD31EF100595999 /* MenuViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				093375E41CD69D6B00172B73 /* ViewControllerSetup.swift */,
+				093375E61CD6B13B00172B73 /* ResultTableViewController.swift */,
 				09588BE11CD435B300595999 /* Views */,
-				09588BD61CD29F6F00595999 /* Models.swift */,
 				09588BDE1CD2A12500595999 /* Yelp */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -286,7 +292,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "Siyu Wu";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -297,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Plates" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -451,7 +457,9 @@
 				09588BD71CD29F6F00595999 /* Models.swift in Sources */,
 				09588BE31CD436FA00595999 /* SVGButton.swift in Sources */,
 				093375DF1CD5CFEF00172B73 /* ShakingSVGLabel.swift in Sources */,
+				093375E71CD6B13B00172B73 /* ResultTableViewController.swift in Sources */,
 				09588BDD1CD2A0ED00595999 /* YelpClient.swift in Sources */,
+				093375E51CD69D6B00172B73 /* ViewControllerSetup.swift in Sources */,
 				09588BE01CD31EF100595999 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,7 +649,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "test" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Plates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,

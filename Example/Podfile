@@ -12,7 +12,7 @@ target 'test_Example', :exclusive => true do
   pod 'UIColor+FlatColors'
   pod 'NVActivityIndicatorView'
   pod 'Alamofire'
-
+  pod 'Kanna'
 end
 
 target 'test_Tests', :exclusive => true do

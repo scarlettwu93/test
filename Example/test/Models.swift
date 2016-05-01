@@ -10,7 +10,16 @@ import UIKit
 
 struct FoodImage {
 
+    let busniessID: String
+
     let imageURL: NSURL
     let descirption: String
 
+    var largeImageURL: NSURL {
+        get {
+            let largeImageURL = imageURL.URLByDeletingLastPathComponent!.URLByAppendingPathComponent("l.jpg")
+            return largeImageURL
+        }
+    }
+    
 }

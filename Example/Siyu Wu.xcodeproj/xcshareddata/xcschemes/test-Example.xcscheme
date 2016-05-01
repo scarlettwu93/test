@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "test_Example.app"
-               BlueprintName = "test_Example"
-               ReferencedContainer = "container:Plates.xcodeproj">
+               BuildableName = "Siyu Wu.app"
+               BlueprintName = "Siyu Wu"
+               ReferencedContainer = "container:Siyu Wu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "test_Tests.xctest"
                BlueprintName = "test_Tests"
-               ReferencedContainer = "container:Plates.xcodeproj">
+               ReferencedContainer = "container:Siyu Wu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "test_Tests.xctest"
                BlueprintName = "test_Tests"
-               ReferencedContainer = "container:Plates.xcodeproj">
+               ReferencedContainer = "container:Siyu Wu.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "test_Example.app"
-            BlueprintName = "test_Example"
-            ReferencedContainer = "container:Plates.xcodeproj">
+            BuildableName = "Siyu Wu.app"
+            BlueprintName = "Siyu Wu"
+            ReferencedContainer = "container:Siyu Wu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "test_Example.app"
-            BlueprintName = "test_Example"
-            ReferencedContainer = "container:Plates.xcodeproj">
+            BuildableName = "Siyu Wu.app"
+            BlueprintName = "Siyu Wu"
+            ReferencedContainer = "container:Siyu Wu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "test_Example.app"
-            BlueprintName = "test_Example"
-            ReferencedContainer = "container:Plates.xcodeproj">
+            BuildableName = "Siyu Wu.app"
+            BlueprintName = "Siyu Wu"
+            ReferencedContainer = "container:Siyu Wu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

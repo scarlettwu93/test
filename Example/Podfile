@@ -5,6 +5,13 @@ target 'test_Example', :exclusive => true do
   pod 'ZLSwipeableViewSwift'
   pod 'Cartography'
   pod 'ReactiveUI'
+  pod 'AFNetworking', '~> 2.5'
+  pod 'BDBOAuth1Manager'
+  pod 'SwiftSVG'
+  pod 'SwiftLocation'
+  pod 'UIColor+FlatColors'
+  pod 'NVActivityIndicatorView'
+  pod 'Alamofire'
 
 end
 

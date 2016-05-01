@@ -84,10 +84,28 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-test_Example/AFNetworking.framework"
+  install_framework "Pods-test_Example/Alamofire.framework"
+  install_framework "Pods-test_Example/BDBOAuth1Manager.framework"
+  install_framework "Pods-test_Example/Cartography.framework"
+  install_framework "Pods-test_Example/NVActivityIndicatorView.framework"
+  install_framework "Pods-test_Example/ReactiveUI.framework"
+  install_framework "Pods-test_Example/SwiftLocation.framework"
+  install_framework "Pods-test_Example/SwiftSVG.framework"
+  install_framework "Pods-test_Example/UIColor_FlatColors.framework"
   install_framework "Pods-test_Example/ZLSwipeableViewSwift.framework"
   install_framework "Pods-test_Example/test.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-test_Example/AFNetworking.framework"
+  install_framework "Pods-test_Example/Alamofire.framework"
+  install_framework "Pods-test_Example/BDBOAuth1Manager.framework"
+  install_framework "Pods-test_Example/Cartography.framework"
+  install_framework "Pods-test_Example/NVActivityIndicatorView.framework"
+  install_framework "Pods-test_Example/ReactiveUI.framework"
+  install_framework "Pods-test_Example/SwiftLocation.framework"
+  install_framework "Pods-test_Example/SwiftSVG.framework"
+  install_framework "Pods-test_Example/UIColor_FlatColors.framework"
   install_framework "Pods-test_Example/ZLSwipeableViewSwift.framework"
   install_framework "Pods-test_Example/test.framework"
 fi
